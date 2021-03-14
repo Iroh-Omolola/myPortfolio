@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     let $btns = $('.project-area .button-group button');
 
 
@@ -61,3 +60,7 @@ $(document).ready(function () {
     navbarFixed();
 
 });
+function myFunction() {
+    document.documentElement.style.scrollBehavior = "smooth";
+  }
+

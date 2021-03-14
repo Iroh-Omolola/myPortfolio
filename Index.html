@@ -13,6 +13,10 @@
 
     <!--  font awesome icons  -->
     <link rel="stylesheet" href="./css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 
     <!--  custom css file  -->
@@ -36,21 +40,21 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav teal borderYtoX">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#site">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link " onclick="myFunction()" href="#site">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">about</a>
+                            <a class="nav-link" onclick="myFunction()" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
+                            <a class="nav-link" onclick="myFunction()" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#project">portfolio</a>
+                            <a class="nav-link" onclick="myFunction()" href="#project">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" onclick="myFunction()" href="#contact">contact</a>
                         </li>
 
                     </ul>
@@ -70,13 +74,13 @@
             <div class="container site-bg">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text text-uppercase">I am Iroh</h1>
+                        <h3 class="title-text">Hi</h3>
+                        <h1 class="title-text text-uppercase animate__heartBeat">I'm Iroh</h1>
                         <h4 class="title-text text-uppercase">Software Developer</h4>
                         <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap">
+                            <div class="d-flex flex-row flex-wrap title-link">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase"><a href="https://mail.google.com/mail/u/0/?tab=km#inbox">hire me</a></button>
-                                <button type="button" class="btn button secondary-button text-uppercase"> <a href="https://drive.google.com/file/d/1YEtr3rygShPB4-Z8F_UYhFD0UrY02AcU/view?usp=sharing">Get cv</a></button>
+                                <button type="button" class="btn button secondary-button text-uppercase get-cv"> <a href="https://drive.google.com/file/d/1YEtr3rygShPB4-Z8F_UYhFD0UrY02AcU/view?usp=sharing">Get cv</a></button>
                             </div>
                         </div>
                     </div>
@@ -113,7 +117,7 @@
                             </p>
                            
                         </div>
-                        <button type="button" class="btn button primary-button text-uppercase"><a href="">Download cv</a> </button>
+                        <button type="button" class="btn button primary-button text-uppercase title-link download-cv"><a href="">Download cv</a> </button>
                     </div>
                 </div>
             </div>
@@ -124,33 +128,55 @@
         <!--  ====================== Start Skills Area =============================  -->
 
         <section class="skills-area" id="skills">
-            <div class="container ">
+            <div class="container skill-area ">
                 <div class="row">
-                    <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text mt-4">Competencies</h1>
+                    <div class="col-lg-12 text-center skills-title">
+                        <h1 class="text-uppercase title-text mt-3">Competencies</h1>
                     </div>
                 </div>
-                <div class="container services-list">
-                    <div class="skills_details">
-                        <div class="col-4 d-flex flex-column flex-wrap">
-                            <h5>Backend:</h5>
-                            <p class="skills-text">In view.....</p>
-                        </div>
-                        <div class="col-4 d-flex flex-column flex-wrap">
-                            <h5>Frontend:</h5>
-                            <p class="skills-text">HTML,CSS, Bootstrap,Javascript,...</p>
-                        </div>
-                        <div class="col-4 d-flex flex-column flex-wrap">
-                            <h5>Soft Skills:</h5>
-                            <p class="skills-text">Organization, Collaboration,Information Analysis Leadership, Design, Marketing</p>
-                        </div>
-                        <div class="col-4 d-flex flex-column flex-wrap">
-                            <h5>Other:</h5>
-                            <p class="skills-text"> Photoshop, Adobe XD, Figma, GitHub/GitLab, Agile, Trello, Power-Point, Excel
-                            </p>
-                        </div>
-                   </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <h3 class="progress-title">HTML5</h3>
+                            <div class="progress pink">
+                                <div class="progress-bar" style="width:95%; background:#ff4b7d;">
+                                    <div class="progress-value">95%</div>
+                                </div>
+                            </div>
+                 
+                            <h3 class="progress-title">CSS3</h3>
+                            <div class="progress green">
+                                <div class="progress-bar" style="width:95%; background:#5fad56;">
+                                    <div class="progress-value">95%</div>
+                                </div>
+                            </div>
+                            <h3 class="progress-title">Bootstrap</h3>
+                            <div class="progress blue">
+                                <div class="progress-bar" style="width:90%; background:#3485ef;">
+                                    <div class="progress-value">90%</div>
+                                </div>
+                                </div>
+                                <h3 class="progress-title">Javascript</h3>
+                                <div class="progress yellow">
+                                    <div class="progress-bar" style="width:65%; background:#e8d324;">
+                                        <div class="progress-value">65%</div>
+                                    </div>
+                                </div>
+                            <h3 class="progress-title">Git/Github</h3>
+                            <div class="progress red">
+                                <div class="progress-bar" style="width:90%; background:#ef3434;">
+                                    <div class="progress-value">90%</div>
+                                </div>
+                           </div>
+                           <h3 class="progress-title">Trello</h3>
+                           <div class="progress lighter-green">
+                               <div class="progress-bar" style="width:90%; background:#27c7c7;">
+                                   <div class="progress-value">90%</div>
+                               </div>
+                          </div>
+                    </div>
                 </div>
+                  </div>
         </section>
 
         <!--  ====================== End Services Area =============================  -->
@@ -167,7 +193,7 @@
                 <div class="button-group">
                     <button type="button" class="active" id="btn1" data-filter="*">All</button>
                     <button type="button" data-filter=".popular">Popular</button>
-                    <button type="button" data-filter=".popular">Upcoming</button>
+                    <button type="button" data-filter=".upcoming">Upcoming</button>
                 </div>
 
                 <div class="row grid">
@@ -258,7 +284,7 @@
 
 
         <!--  ========================== Subscribe me Area ============================  -->
-        <section class="reach-me">
+        <section class="reach-me" id="contact">
             <div class="container contact contact-reach">
                 <div class="row">
                     <div class="col-lg-12 text-center contact-title">
@@ -268,15 +294,16 @@
                         </p>
                     </div>
                 </div>
-                <div class="d-sm-flex justify-content-center">
+                <div class="d-sm-flex text-center justify-content-center">
                     <form class="w-50 align-content-center">
-                        <div class="row d-flex flex-row flex-wrap contact-inputs">
-                            <div class="col input-textbox">
-                                <input type="text" id="txtemail" class="form-control text-center kontact" placeholder="Message">
+                        <div class="row d-flex flex-column text-center  contact-inputs">
+                            <div class="col input-textbox justify-content-center">
+                                <input type="text" id="txtemail" class="form-control 
+                                text-center kontact" placeholder="Message">
                             </div>
                             <div class="col">
                                 <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">Send</button>
+                                    <button type="submit" class="btn btn-success mt-3 ">Send</button>
                                 </div>
                             </div>
                         </div>
