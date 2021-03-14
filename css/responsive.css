@@ -54,6 +54,7 @@
     .kontact{
         color: var(--title-color) !important;
         margin-top: 30px;
+        
     }
     .contact-inputs{
         width: 100%  !important; 
@@ -80,22 +81,26 @@
         margin-left: -5px;
     }
     .navbar-toggler{
-        margin-right: 20px !important;
+        margin-right: 5px !important;
     }
     .site-title{
         margin-right: 30px;
     }
     .skills-area{
         width: 10%;
-         margin-left: 20px;
-         padding-left: -30px !important;
+        margin-left: 20px;
+        padding-left: -30px !important;
         }
-    .skills_details {
+     section#skills.skills-area {
+           margin-left: 17px;
+     }
+      .skills_details {
             padding: 10px 0px;
         }
-    .skills-area h1{
+      .skills-area h1{
             font-size: 22px;
         }  
+       
       }
     
  
@@ -183,6 +188,6 @@
     }
     .skills-area{
         width: 90%;
-        margin-left: 40px ;
+        margin-left: 40px;
     }
 }

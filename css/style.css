@@ -15,7 +15,7 @@
 /* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 8rem;
+    padding: 0 2rem 0 7rem;
 }
 
 .header_area .main-menu .navbar{
@@ -29,8 +29,9 @@
     color: var(--title-color);
 }
 .navbar-nav{
-    padding-right: 9rem;
+    padding-right: 6rem;
 }
+
 ul.navbar-nav a
 {
     color: var(--title-color);
@@ -75,28 +76,12 @@ ul.navbar-nav a
 .hero{
     color: var(--primary-color2);
 }
-/* .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-} */
-
 /* end navigation */ 
 
 
 /* Banner Area */ 
 
-.site-main {
-    padding-left: 15px;
-}
+
 .site-title{
     padding-left: 4%;
 }
@@ -105,11 +90,11 @@ ul.navbar-nav a
     font-weight: 500;
    
 }
-.site-bg{
+.site-banner{
     background: url(../img/Layer.png) no-repeat;
     background-size: cover;
     height: 600px;
-    width: 87%;
+    width: 98%;
 }
 .title-link a{
     text-decoration: none;
@@ -135,21 +120,20 @@ ul.navbar-nav a
 
 .site-main .site-banner .banner-image > img{
     padding: 4rem 8.5rem;
+    margin-left: 10px;
     /* border-radius:  */
     border-bottom-left-radius: none;
     border-bottom-right-radius:170px;
     border-top-left-radius: none;
     border-top-right-radius: 170px;
-    width: 90rem;
+    width: 95rem;
 }
 /* End Banner Area */ 
 
 
 /* Start About Area */ 
 
-.site-main .about-area{
-    padding: 8rem 5rem;
-}
+
 
 .site-main .about-area .about-title h2 > span{
     display: block;
@@ -158,24 +142,24 @@ ul.navbar-nav a
 }
 
 .site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
+    padding: .4rem 1rem;
 }
 .hero-img2{
     height: 540px;
     width: 400px;
     margin: auto;
     margin-top: 40px;
+    margin-left: 20px;
 }
 /* End About Area */ 
 
 
-/* Skills Area */
-.skills-area{
+/*Skills Area */
+#skills{
     background: var(--gradient-color);
-    background-size: cover;
-    width: 89%;
-    margin-left: 2.3rem;
-    font-family: "Roboto";
+    margin: 0 auto;
+    width: 88% !important;
+    
 }
 .skills-area h1{
     color: #fff;
@@ -243,24 +227,15 @@ ul.navbar-nav a
 @keyframes animate-positive{
     0% { width: 0; }
 }
-/* .skills_details {
-    padding: 30px 90px;
-    color:whitesmoke;
-}
-.skills-area h1{
-    color: whitesmoke;
-}
-.skills-text{
-    width: 300%;
-} */
 /* End Skills Area */
 
 
 /* Project Area */ 
 
 .site-main .project-area{
-    padding: 7rem 0;
+    padding: 5rem 0;
     margin: 0 auto;
+    
 }
 
 .site-main .project-area .button-group button{
@@ -276,6 +251,7 @@ ul.navbar-nav a
 
 .site-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
+    
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
@@ -291,7 +267,8 @@ ul.navbar-nav a
 
 .site-main .reach-me .contact{
     background: url(../img/subscribe-bg.png) no-repeat;
-    width: 99%;
+    background-size: cover;
+    width: 100%;
     padding: 10rem 0rem;
     margin: 0 auto;
 }
@@ -299,11 +276,16 @@ ul.navbar-nav a
 .site-main .reach-me .contact .contact-title h4{
     font: normal 700 30px/ 30px var(--roboto);
     color: whitesmoke;
+    text-align: center;
+    margin-left: 30px;
 }
 
 .site-main .reach-me .contact .contact-title p{
     color: whitesmoke;
-    padding: 1rem 4rem;
+    padding: 1rem 10rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 20px;
 }
 
 .site-main .reach-me .contact form .input-textbox input{
