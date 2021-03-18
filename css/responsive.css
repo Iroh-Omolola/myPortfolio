@@ -21,7 +21,7 @@
         padding-left: 80px !important; 
     }
     .get-cv{
-        margin-top: 8px;
+        margin-top: 10px;
     }
     .about-title{
         margin-left: -20px;
@@ -33,42 +33,10 @@
         margin-top: -15px;
         text-align: center;
     }
-
-    /* .site-title{
-        padding-left: -4% !important;
-    } */
     .site-main .project-area .button-group button + button{
         padding-left: 1rem;
     }
-    .site-main .reach-me .contact form .input-textbox input{
-        width: 10rem    !important;
-    }
-    .site-main .reach-me{
-        padding-left: 1.5rem;
-        width: 330px;
-    }
-    .contact-reach{
-        height: 250px;
-        
-    }
-    .kontact{
-        color: var(--title-color) !important;
-        margin-top: 30px;
-        
-    }
-    .contact-inputs{
-        width: 100%  !important; 
-        margin-left: 40px !important;
-        
-    }
-    .btn-submit{
-        margin-left: 35px !important;
-        margin-top: -14px;
-    }
-
-    .para-text{
-        width: 130%;
-    }
+    
     .copyright{
         text-align: center;
     }
@@ -100,7 +68,9 @@
       .skills-area h1{
             font-size: 22px;
         }  
-       
+       .reach-me{
+           margin-left: 30px;
+       }
       }
     
  

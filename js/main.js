@@ -60,7 +60,9 @@ $(document).ready(function () {
     navbarFixed();
 
 });
-function myFunction() {
-    document.documentElement.style.scrollBehavior = "smooth";
-  }
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+document.documentElement.style.scrollBehavior = "smooth";
+});
 
